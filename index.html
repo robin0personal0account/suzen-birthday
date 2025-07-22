@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Suzen!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #000000;
+            --background: #ffffff;
+            --transition: all 0.4s ease;
+        }
+        
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background-color: var(--background);
+            color: var(--secondary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .card {
+            background: var(--background);
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+            padding: 40px;
+            max-width: 480px;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        
+        .profile {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--primary);
+            margin: 0 auto 20px;
+            display: block;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: var(--primary);
+            font-size: 28px;
+            margin-bottom: 16px;
+            font-weight: 700;
+        }
+        
+        .message {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 32px;
+            color: var(--secondary);
+            opacity: 0.9;
+        }
+        
+        .btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 14px 28px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            box-shadow: 0 4px 12px rgba(44, 62, 80, 0.15);
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(44, 62, 80, 0.2);
+        }
+        
+        .btn i {
+            font-size: 18px;
+        }
+        
+        .watermark {
+            margin-top: 32px;
+            font-size: 12px;
+            color: var(--secondary);
+            opacity: 0.5;
+        }
+        
+        @media (max-width: 480px) {
+            .card {
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            .message {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="suzen.jpg" alt="Suzen" class="profile">
+        
+        <h1>Happy Birthday Suzen!</h1>
+        
+        <div class="message">
+            Hey you! Another trip around the sun and you're still out here being awesome. 
+            Wishing you a day that's as amazing as you are - full of good food, great laughs, 
+            and people who appreciate how wonderful you are. Don't forget to treat yourself today!
+        </div>
+        
+        <a href="https://ewishwell.com/w/birthday-suzen-31fb7f" class="btn">
+            <i class="fas fa-gift"></i> Your Special Gift
+        </a>
+        
+        <div class="watermark">
+            Made with love for Suzen
+        </div>
+    </div>
+</body>
+</html>
